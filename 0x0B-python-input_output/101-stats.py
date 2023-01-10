@@ -13,7 +13,7 @@ def print_pretty(size, code_dict):
 if __name__ == '__main__':
     """init code to print the parsed data"""
     size = 0
-    code_dict = 
+    code_dict = ( 
         "200": 0,
         "301": 0,
         "400": 0,
@@ -22,7 +22,7 @@ if __name__ == '__main__':
         "404": 0,
         "405": 0,
         "500": 0
-    
+        )
     try:
         line_counter = 0
         for line in sys.stdin:
