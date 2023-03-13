@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-let myVar = 'C is fun\n' +
+const myVar = 'C is fun\n' +
 'Python is cool\n' +
 'JavaScript is amazing';
 
